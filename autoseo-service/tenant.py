@@ -4,3 +4,9 @@ class Tenant:
         self.plan = plan
         self.limit = limit
         self.usage = 0
+
+    def can_use(self):
+        return self.usage < self.limit
+
+    def track_usage(self):
+        self.usage += 1
