@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI()  # MUST be named 'app'
+app = FastAPI()
 
 @app.get("/")
 def home():
