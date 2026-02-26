@@ -10,5 +10,12 @@
       "src": "/(.*)",
       "dest": "api/index.py"
     }
-  ]
+  ],
+  "env": {},
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.11",
+      "handler": "app"
+    }
+  }
 }
