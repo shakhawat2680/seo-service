@@ -1,0 +1,13 @@
+{
+  "name": "autoseo-service",
+  "version": "1.0.0",
+  "description": "Multi-tenant SEO automation service",
+  "scripts": {
+    "dev": "python app.py",
+    "build": "pip install -r requirements.txt",
+    "start": "uvicorn app:app --host 0.0.0.0 --port $PORT"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
